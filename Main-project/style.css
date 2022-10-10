@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.first {
+  background-color: #1f2937;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav img {
+  width: 50px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: lightgrey;
+  margin: 5px;
+}
+
+.first-content {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.first-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 1000;
+}
+
+.first-text p {
+  color: #e5e7eb;
+}
+
+.first-text button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+}
+
+.first-img img {
+  width: 200px;
+  height: auto;
+}
+
+.second {
+  text-align: center;
+}
+
+.second h2 {
+  margin-bottom: 50px;
+}
+
+.second-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.second-content figure {
+  width: 150px;
+}
+
+.second-content figure img {
+  width: 100px;
+  height: auto;
+  border: 2px solid #3882f6;
+  border-radius: 10%;
+}
+
+.second-content div p {
+  text-align: center;
+  font-size: small;
+  font-weight: 100;
+}
+
+.third {
+  background-color: #e5e7eb;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.first-paragraph {
+  text-align: center;
+  font-size: 36px;
+  /* font-style: italic; */
+  font-family: 'light Inter';
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.second-paragraph {
+  text-align: right;
+}
+
+.fourth {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+  padding: 30px;
+  color: #e5e7eb;
+}
+
+.fourth-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fourth-content h3 {
+  margin-bottom: 0;
+}
+
+.fourth-content p {
+  font-size: 12px;
+}
+
+.fourth-btn button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 1px solid #e5e7eb;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 30px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+}
