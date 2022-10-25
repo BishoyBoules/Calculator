@@ -11,7 +11,7 @@ function clear () {
     display = ''
     result = 0
     firstNumber = 0
-    operatorDisplay = '='
+    operatorDisplay = ''
     resultElement.value = display
 }
 
@@ -78,6 +78,8 @@ const operate = (element) => {
                 display = multiply(firstNumber, result)
             } else if(operatorDisplay === '/'){
                 display = divide(firstNumber, result)
+            } else if(operatorDisplay === '%'){
+                display = divide(firstNumber, 100)
             }
             firstNumber = parseFloat(display)
         } else {
@@ -103,6 +105,8 @@ const operate = (element) => {
             display = multiply(firstNumber, result)
         } else if(operatorDisplay === '/'){
             display = divide(firstNumber, result)
+        } else if(operatorDisplay === '%'){
+            display = divide(firstNumber, 100)
         }
         firstNumber = parseFloat(display)
     } 
