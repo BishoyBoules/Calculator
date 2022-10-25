@@ -88,7 +88,6 @@ const operate = (element) => {
   } else if (element.classList.contains('equal')) {
     operator = false
     dotClicked = false
-    firstNumber = display
   }
   resultElement.value = display
 }
