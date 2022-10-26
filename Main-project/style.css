@@ -101,7 +101,7 @@ body {
   border-radius: 10%;
 }
 
-.second-content div p {
+.second-content figure figcaption {
   text-align: center;
   font-size: small;
   font-weight: 100;
