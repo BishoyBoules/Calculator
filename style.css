@@ -5,6 +5,7 @@
     align-items: center;
     border: 2px black solid;
     height: 500px;
+    margin: 0;
 }
 
 #screen > input{
@@ -28,6 +29,8 @@ button{
     font-size: 20px;
     font-weight: bolder;
     cursor: pointer;
+    color: black;
+    text-align: center;
 }
 
 #zero{
